@@ -1,0 +1,1 @@
+let baito_kyuyo year hour = (100 * year + 850) * hour;;

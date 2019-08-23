@@ -1,0 +1,1 @@
+let jikoshokai name = "Hello, I'm " ^ name ^ ".";;
