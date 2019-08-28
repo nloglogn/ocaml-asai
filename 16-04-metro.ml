@@ -61,3 +61,5 @@ let dijkstra_main eki_lst ekikan_lst p =
         match separated with
          (q,v_lst) -> hojo v_lst ekikan_lst q (q::acc)
   in hojo eki_lst ekikan_lst p []
+  
+  (* 再帰部分の v_lst は要素数が1つずつ減っていくので、必ず停止する。 *)
