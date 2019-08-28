@@ -1,0 +1,1 @@
+let f = fun x -> x * x - 1
